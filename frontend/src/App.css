@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+.container {
+    text-align: center;
+    padding: 20px;
+}
+ 
+.step-container {
+    align-items: center;
+    justify-items:center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vh;
+
+    button:hover {
+        background-color: rgb(31, 110, 122);
+        color: aliceblue;
+    }
+}
+
+.h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+.book {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vh;
+}
+
