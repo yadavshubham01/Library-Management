@@ -3,7 +3,7 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const sequelize = new Sequelize(process.env.DATABASE_URL || 'postgresql://neondb_owner:IkACpi9UvM8j@ep-misty-mode-a5cqcm53.us-east-2.aws.neon.tech/neondb?sslmode=require',{
+const sequelize = new Sequelize(process.env.DATABASE_URL || '',{
   dialect: "postgres",
 });
 
